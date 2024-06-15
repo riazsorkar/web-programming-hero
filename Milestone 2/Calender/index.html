@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calender Using Grid Css</title>
+
+    <style>
+        .calender{
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            column-gap: 2%;
+            row-gap: 2%;
+        }
+        .day{
+            height: 50px;
+            background-color: gray;
+            border-radius: 7px ;
+            font-size: 25px;
+            font-weight: 700;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .dayname{
+            height: 40px;
+            background-color: rgb(66, 161, 14);
+            border-radius: 7px ;
+            font-size: 25px;
+            font-weight: 700;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .next-month{
+            height: 50px;
+            background-color: rgb(213, 224, 205);
+            border-radius: 7px ;
+            font-size: 25px;
+            font-weight: 700;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="calender">
+        <div class="dayname">S</div>
+        <div class="dayname">M</div>
+        <div class="dayname">T</div>
+        <div class="dayname">W</div>
+        <div class="dayname">T</div>
+        <div class="dayname">F</div>
+        <div class="dayname">S</div>
+        <div class="day">1</div>
+        <div class="day">2</div>
+        <div class="day">3</div>
+        <div class="day">4</div>
+        <div class="day">5</div>
+        <div class="day">6</div>
+        <div class="day">7</div>
+        <div class="day">8</div>
+        <div class="day">9</div>
+        <div class="day">10</div>
+        <div class="day">11</div>
+        <div class="day">12</div>
+        <div class="day">13</div>
+        <div class="day">14</div>
+        <div class="day">15</div>
+        <div class="day">16</div>
+        <div class="day">17</div>
+        <div class="day">18</div>
+        <div class="day">19</div>
+        <div class="day">20</div>
+        <div class="day">21</div>
+        <div class="day">22</div>
+        <div class="day">23</div>
+        <div class="day">24</div>
+        <div class="day">25</div>
+        <div class="day">26</div>
+        <div class="day">27</div>
+        <div class="day">28</div>
+        <div class="day">29</div>
+        <div class="day">30</div>
+        <div class="day">31</div>
+        <div class="day next-month">1</div>
+        <div class="day next-month">2</div>
+        <div class="day next-month">3</div>
+        <div class="day next-month">4</div>
+        <div class="day next-month">5</div>
+    </div>
+</body>
+</html>

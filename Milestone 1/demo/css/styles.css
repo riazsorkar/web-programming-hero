@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    background: #228b22;
+    font-family: 'Ubuntu', sans-serif;
+}
+.btnn{
+    padding: 10px;
+    background-color: azure;
+    font-size: 20px;
+    border-radius: 20px ;
+}
+
+/* Head Design */
+
+.sitehead{
+    text-align: center;
+    background-color: #dddddd;
+}
+
+.logo{
+    align-items: center;
+    background-color: #dddddd;
+    margin: 10px 0px 10px 0px;
+}
+
+.banner{
+    text-align: center;
+}
+.head-banner{
+    margin: 20px 20px 20px 20px;
+    border: 2px solid #dddddd ;
+    height: 300;
+
+}
+
+
+
+
